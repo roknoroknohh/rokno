@@ -1,0 +1,14 @@
+<issues burpVersion="2024.1.1" exportTime="2026-05-12T16:28:17.611963"><issue><serialNumber>1</serialNumber><type>134217728</type><name>IDOR: https://hackerone.com/security?type=team</name><host ip="">hackerone.com</host><path>https://hackerone.com/security?type=team</path><location /><severity>High</severity><confidence>Certain</confidence><request base64="false">GET https://hackerone.com/security?type=team HTTP/1.1
+Host: hackerone.com</request><response base64="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;!--[if lte IE 8]&gt;
+  &lt;meta http-equiv="refresh" content="0; url=/browser-not-supported.html"&gt;
+  &lt;![endif]--&gt;
+
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1"&gt;
+  &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+      &lt;meta property="og:type" content="website" /&gt;
+    &lt;meta property="og:url" content="https://hackerone.com/security" /&gt;
+    &lt;meta property="og:image" content="https://pro</response><issueBackground>Missing Auth: No-cookie request returned status 200 with 3449 bytes</issueBackground><remediationBackground>Implement proper authorization checks.</remediationBackground></issue></issues>

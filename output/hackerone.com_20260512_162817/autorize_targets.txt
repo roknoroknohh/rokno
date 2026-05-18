@@ -1,0 +1,23 @@
+# Autorize Target Endpoints
+# Generated: 2026-05-12T16:28:17.616939
+
+https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0
+https://hackerone.com/security?type=team
+https://hackerone.com/sitemap.xml?first=0
+https://hackerone.com/sitemap.xml?first=1
+https://hackerone.com/sitemap.xml?first=2
+https://hackerone.com/sitemap.xml?first=3
+https://hackerone.com/sitemap.xml?first=4
+https://hackerone.com/sitemap.xml?first=5
+https://hackerone.com/sitemap.xml?first=6
+https://hackerone.com/sitemap.xml?first=7
+https://hackerone.com/sitemap.xml?first=8
+https://hackerone.com/sitemap.xml?first=9
+https://hackerone.com/sitemap.xml?first=a
+https://hackerone.com/sitemap.xml?first=b
+https://hackerone.com/sitemap.xml?first=c
+https://hackerone.com/sitemap.xml?first=d
+https://hackerone.com/sitemap.xml?first=e
+https://hackerone.com/sitemap.xml?first=f
+https://hackerone.com/sitemap.xml?first=g
+https://hackerone.com/sitemap.xml?first=h

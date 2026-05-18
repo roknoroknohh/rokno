@@ -1,0 +1,20 @@
+# Logger++ Filter Rules
+# Generated: 2026-05-12T16:28:17.613936
+
+# Highlight API endpoints
+RegexFilter: /api/ -> Color: RED
+RegexFilter: /graphql -> Color: RED
+RegexFilter: /rest/ -> Color: RED
+RegexFilter: /v1/ -> Color: RED
+RegexFilter: /v2/ -> Color: RED
+RegexFilter: /auth/ -> Color: RED
+RegexFilter: /user/ -> Color: RED
+RegexFilter: /admin/ -> Color: RED
+
+# Highlight interesting status codes
+StatusCodeFilter: 401 -> Color: ORANGE
+StatusCodeFilter: 403 -> Color: ORANGE
+StatusCodeFilter: 500 -> Color: RED
+
+# Highlight tokens in responses
+ResponseFilter: (token|api_key|secret|password) -> Color: YELLOW

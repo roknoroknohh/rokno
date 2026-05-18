@@ -1,0 +1,92 @@
+======================================================================
+  ATTACK SURFACE MAP — BUG BOUNTY READY
+======================================================================
+  Target: https://rokhub.onrender.com
+  Generated: 2026-05-11T21:56:07.706805
+
+──────────────────────────────────────────────────────────────────────
+  [P1] CRITICAL TARGETS — Test First
+──────────────────────────────────────────────────────────────────────
+  [P1] /api/check-replies
+  [P1] https://rokhub.onrender.com/api/
+  [P1] https://rokhub.onrender.com/api/check-replies
+  [P1] https://rokhub.onrender.com/admin/
+  [P1] https://rokhub.onrender.com/admin/login
+  [P1] /api/check-replies  (from JS)
+  [P1] https://rokhub.onrender.com/api/check-replies  (from JS)
+
+  Total P1: 7
+
+──────────────────────────────────────────────────────────────────────
+  [P2] HIGH VALUE TARGETS
+──────────────────────────────────────────────────────────────────────
+  [P2] https://rokhub.onrender.com/user/
+  [P2] https://rokhub.onrender.com/user/profile
+  [P2] https://rokhub.onrender.com/user/register
+  [P2] https://rokhub.onrender.com/user/login
+  [P2] https://rokhub.onrender.com/admin/login
+  [P2] https://rokhub.onrender.com/user/register
+  [P2] https://rokhub.onrender.com/user/login
+
+  Total P2: 7
+
+──────────────────────────────────────────────────────────────────────
+  [P3] MEDIUM VALUE TARGETS
+──────────────────────────────────────────────────────────────────────
+  [P3] https://rokhub.onrender.com/search
+  [P3] https://rokhub.onrender.com/user/profile
+
+  Total P3: 2
+
+──────────────────────────────────────────────────────────────────────
+  [P4] LOW VALUE / INFORMATIONAL
+──────────────────────────────────────────────────────────────────────
+  [P4] https://rokhub.onrender.com/static/js/notifications.js
+  [P4] https://rokhub.onrender.com/static/js/terms-popup.js
+  [P4] https://rokhub.onrender.com/static/js/main.js
+  [P4] https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+
+  Total P4: 4
+
+======================================================================
+  STATISTICS
+======================================================================
+  • Total Endpoints Found:     29
+  • Testable Parameters:       6
+  • JS Files Analyzed:         3
+  • Hidden APIs from JS:       3
+  • Subdomains Found:          1
+  • Potential Takeovers:       0
+  • Secrets Leaked in JS:      0
+  • Injection Points:          0
+
+======================================================================
+  💉 INJECTION POINTS
+======================================================================
+  [Unknown / Fuzz] family
+      URL: https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&disp
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] display
+      URL: https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&disp
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [Unknown / Fuzz] category
+      URL: https://rokhub.onrender.com/games?category=1
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [Unknown / Fuzz] category
+      URL: https://rokhub.onrender.com/games?category=2
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [Unknown / Fuzz] category
+      URL: https://rokhub.onrender.com/games?category=3
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [Unknown / Fuzz] category
+      URL: https://rokhub.onrender.com/games?category=4
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+======================================================================
+  END OF REPORT — Happy Hunting!
+======================================================================

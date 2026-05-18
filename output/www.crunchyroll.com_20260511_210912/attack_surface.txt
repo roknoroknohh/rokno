@@ -1,0 +1,213 @@
+======================================================================
+  ATTACK SURFACE MAP — BUG BOUNTY READY
+======================================================================
+  Target: https://www.crunchyroll.com
+  Generated: 2026-05-11T21:09:12.265088
+
+──────────────────────────────────────────────────────────────────────
+  [P1] CRITICAL TARGETS — Test First
+──────────────────────────────────────────────────────────────────────
+  [P1] /auth/v1/token
+  [P1] /content/v2/cms/movie_listings/{movieListingId}
+  [P1] /content/v2/cms/{accountId}/objects/{contentIds}
+  [P1] https://www.crunchyroll.com/v1/paymentMethods
+  [P1] /subs/v2/products
+  [P1] /subs/v1/subscriptions/{externalAccountId}/benefits
+  [P1] /content/v2/cms/objects/{content_ids}
+  [P1] /content/v1/ecom
+  [P1] /subs/v2/products/{sku}
+  [P1] /personalization/v2/personalization
+  [P1] /content/v1/browse
+  [P1] /subs/v3/subscriptions/{accountId}
+  [P1] https://www.crunchyroll.com/auth/v1/token
+  [P1] config-delta/v2/apps/cr-acquisition/config_delta
+  [P1] /v1/paymentMethods
+  [P1] /subs/v1/promotions
+  [P1] /accounts/v1/me/profile
+  [P1] /subs/v1/subscriptions/{externalAccountId}/checkout
+  [P1] /content/v2/cms/series/{seriesId}
+  [P1] /content/v1/{accountId}/watchlist
+  [P1] /accounts/v1/me
+  [P1] /accounts/v1/consent/{accountId}/tos
+  [P1] /auth/v1/token
+  [P1] https://www.crunchyroll.com/auth/v1/token
+  [P1] https://www.crunchyroll.com/v1/paymentMethods
+  [P1] https://www.crunchyroll.com/*/payments/
+  [P1] /v1/paymentMethods
+  [P1] https://www.crunchyroll.com/billing/*
+  [P1] /subs/v1/subscriptions/{externalAccountId}/checkout
+  [P1] https://www.crunchyroll.com/auth/v1/token  (from JS)
+  [P1] https://www.crunchyroll.com/v1/paymentMethods  (from JS)
+
+  Total P1: 31
+
+──────────────────────────────────────────────────────────────────────
+  [P2] HIGH VALUE TARGETS
+──────────────────────────────────────────────────────────────────────
+  [P2] https://www.crunchyroll.com/account/membership
+  [P2] /accounts/v1/me/profile
+
+  Total P2: 2
+
+──────────────────────────────────────────────────────────────────────
+  [P3] MEDIUM VALUE TARGETS
+──────────────────────────────────────────────────────────────────────
+  [P3] https://www.crunchyroll.com/*/search$
+  [P3] https://www.crunchyroll.com/search-classic
+  [P3] https://www.crunchyroll.com/*/search?*$
+  [P3] /accounts/v1/me/profile
+  [P3] https://www.crunchyroll.com/status/
+
+  Total P3: 5
+
+──────────────────────────────────────────────────────────────────────
+  [P4] LOW VALUE / INFORMATIONAL
+──────────────────────────────────────────────────────────────────────
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/CrunchyrollAtyp/CrunchyrollAtyp-Bold.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Crunchyroll/Crunchyroll-Bold.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-1ccb46a4.708640d32c35984f7423.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-9a8b795a.90f5963d3e1561c7b912.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/runtime.03d65a07646be0d707ac.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Lato/Lato-Semibold.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Lato/Lato-Medium.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-536eaa00.b6b3f80fb50dcb7c9b8b.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-e5bca7e4.f7f7ee5609c5e95f26fa.js
+  [P4] https://www.crunchyroll.com/cdn-cgi/challenge-platform/scripts/jsd/main.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-2031ea78.c1d9639aa77d2660a7a8.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-f82e0cd2.df63998abcf47e18a90f.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-cd271a2f.f5ac859306b0f48c4d78.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-bb3d84b5.6c465f4697bea4a3218a.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-9501c5ee.56744dfc7674e7acbdcc.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-a5ce148e.c0456db481c305ddb14e.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-7f854005.793e3f1381f8a5edd232.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-d7027cce.2a0220462d8323dfd9b1.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-8da4c204.80597dd0638deb96961a.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-229eafb5.913e97e8dfb37211cefe.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-efdee510.5aeacf7afa026088f300.js
+  [P4] https://static.crunchyroll.com/analytics/cr-eec-8.10.1.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-27545368.c888b54525db6947e5ec.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-51db7292.59c43b357de8bea1d694.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-1d1fa024.19a3338d7ad03146cece.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Lato/Lato-Heavy.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/index-19f9d112.141ba52bf0cf289251b2.js
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/CrunchyrollAtyp/CrunchyrollAtyp-Bold.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Crunchyroll/Crunchyroll-Bold.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Lato/Lato-Semibold.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Lato/Lato-Medium.woff2
+  [P4] https://static.crunchyroll.com/cr-acquisition/assets/fonts/Lato/Lato-Heavy.woff2
+
+  Total P4: 32
+
+======================================================================
+  STATISTICS
+======================================================================
+  • Total Endpoints Found:     264
+  • Testable Parameters:       159
+  • JS Files Analyzed:         22
+  • Hidden APIs from JS:       4
+  • Subdomains Found:          1
+  • Potential Takeovers:       0
+  • Secrets Leaked in JS:      3
+  • Injection Points:          0
+
+======================================================================
+  🔑 SECRETS FOUND IN JS
+======================================================================
+  [High] Basic Auth
+      Value: ***
+      Source: 
+
+  [High] Google API Key
+      Value: ***
+      Source: 
+
+  [High] Firebase API Key
+      Value: ***
+      Source: 
+
+======================================================================
+  💉 INJECTION POINTS
+======================================================================
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/%23.xml?page=0
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/%23.xml?page=1
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/%23.xml?page=2
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=0
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=1
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=2
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=3
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=4
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=5
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=6
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=7
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/A.xml?page=8
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/B.xml?page=0
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/B.xml?page=1
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/B.xml?page=2
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/B.xml?page=3
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/C.xml?page=0
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/C.xml?page=1
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/C.xml?page=2
+      Test: 999999, -1, 0
+
+  [Pagination / DoS] page
+      URL: https://www.crunchyroll.com/sitemaps/episode/C.xml?page=3
+      Test: 999999, -1, 0
+
+======================================================================
+  END OF REPORT — Happy Hunting!
+======================================================================

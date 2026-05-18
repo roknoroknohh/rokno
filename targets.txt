@@ -1,0 +1,6 @@
+api-acceptance.poki.com
+user-vault.poki.com
+poki-auth.poki.com
+realtime-acceptance.poki.com
+devs-api-acceptance.poki.com
+qa-files.poki.com

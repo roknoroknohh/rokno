@@ -1,0 +1,41 @@
+<issues burpVersion="2024.1.1" exportTime="2026-05-11T22:07:53.398200"><issue><serialNumber>1</serialNumber><type>134217728</type><name>IDOR: https://rokhub.onrender.com/games?category=4</name><host ip="">rokhub.onrender.com</host><path>https://rokhub.onrender.com/games?category=4</path><location /><severity>High</severity><confidence>Certain</confidence><request base64="false">GET https://rokhub.onrender.com/games?category=4 HTTP/1.1
+Host: rokhub.onrender.com</request><response base64="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https:; font-src 'self' https:; script-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: http:;"&gt;
+    
+    &lt;!-- Open Graph --&gt;
+    &lt;meta property="og:title" content="ROKhub"&gt;
+    &lt;meta property="og:description" content="أفضل م</response><issueBackground>Missing Auth: No-cookie request returned status 200 with 12331 bytes</issueBackground><remediationBackground>Implement proper authorization checks.</remediationBackground></issue><issue><serialNumber>2</serialNumber><type>134217728</type><name>IDOR: https://rokhub.onrender.com/games?category=3</name><host ip="">rokhub.onrender.com</host><path>https://rokhub.onrender.com/games?category=3</path><location /><severity>High</severity><confidence>Certain</confidence><request base64="false">GET https://rokhub.onrender.com/games?category=3 HTTP/1.1
+Host: rokhub.onrender.com</request><response base64="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https:; font-src 'self' https:; script-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: http:;"&gt;
+    
+    &lt;!-- Open Graph --&gt;
+    &lt;meta property="og:title" content="ROKhub"&gt;
+    &lt;meta property="og:description" content="أفضل م</response><issueBackground>Missing Auth: No-cookie request returned status 200 with 12331 bytes</issueBackground><remediationBackground>Implement proper authorization checks.</remediationBackground></issue><issue><serialNumber>3</serialNumber><type>134217728</type><name>IDOR: https://rokhub.onrender.com/games?category=2</name><host ip="">rokhub.onrender.com</host><path>https://rokhub.onrender.com/games?category=2</path><location /><severity>High</severity><confidence>Certain</confidence><request base64="false">GET https://rokhub.onrender.com/games?category=2 HTTP/1.1
+Host: rokhub.onrender.com</request><response base64="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https:; font-src 'self' https:; script-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: http:;"&gt;
+    
+    &lt;!-- Open Graph --&gt;
+    &lt;meta property="og:title" content="ROKhub"&gt;
+    &lt;meta property="og:description" content="أفضل م</response><issueBackground>Missing Auth: No-cookie request returned status 200 with 12331 bytes</issueBackground><remediationBackground>Implement proper authorization checks.</remediationBackground></issue><issue><serialNumber>4</serialNumber><type>134217728</type><name>IDOR: https://rokhub.onrender.com/games?category=1</name><host ip="">rokhub.onrender.com</host><path>https://rokhub.onrender.com/games?category=1</path><location /><severity>High</severity><confidence>Certain</confidence><request base64="false">GET https://rokhub.onrender.com/games?category=1 HTTP/1.1
+Host: rokhub.onrender.com</request><response base64="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https:; font-src 'self' https:; script-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: http:;"&gt;
+    
+    &lt;!-- Open Graph --&gt;
+    &lt;meta property="og:title" content="ROKhub"&gt;
+    &lt;meta property="og:description" content="أفضل م</response><issueBackground>Missing Auth: No-cookie request returned status 200 with 12331 bytes</issueBackground><remediationBackground>Implement proper authorization checks.</remediationBackground></issue></issues>

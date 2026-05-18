@@ -1,0 +1,65 @@
+======================================================================
+  BURP SUITE WORKFLOW REPORT
+======================================================================
+  Target: https://hackerone.com
+  Generated: 2026-05-12T16:28:17.608400
+
+──────────────────────────────────────────────────────────────────────
+  ① LOGGER++ FILTER TARGETS
+──────────────────────────────────────────────────────────────────────
+  Add these to Logger++ Scope:
+    • /api/
+    • /graphql
+    • /auth/
+    • /user/
+    • /admin/
+    • /upload/
+    • /payment/
+
+  Status codes to watch: 401, 403, 500
+  Save responses containing: token, api_key, secret
+
+──────────────────────────────────────────────────────────────────────
+  ② AUTORIZE SETUP
+──────────────────────────────────────────────────────────────────────
+  1. Login with Account A (owner)
+  2. Copy Account A's cookies/token to Autorize
+  3. Login with Account B (attacker)
+  4. Browse the application normally
+  5. Watch for 'Bypassed!' in Autorize
+
+  High-value endpoints for Autorize:
+    → https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0
+    → https://hackerone.com/security?type=team
+    → https://hackerone.com/sitemap.xml?first=0
+    → https://hackerone.com/sitemap.xml?first=1
+    → https://hackerone.com/sitemap.xml?first=2
+    → https://hackerone.com/sitemap.xml?first=3
+    → https://hackerone.com/sitemap.xml?first=4
+    → https://hackerone.com/sitemap.xml?first=5
+    → https://hackerone.com/sitemap.xml?first=6
+    → https://hackerone.com/sitemap.xml?first=7
+
+──────────────────────────────────────────────────────────────────────
+  ③ PARAM MINER TARGETS
+──────────────────────────────────────────────────────────────────────
+  Run Param Miner (Passive only) on:
+    → https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0
+    → https://hackerone.com/security?type=team
+    → https://hackerone.com/sitemap.xml?first=0
+    → https://hackerone.com/sitemap.xml?first=1
+    → https://hackerone.com/sitemap.xml?first=2
+    → https://hackerone.com/sitemap.xml?first=3
+    → https://hackerone.com/sitemap.xml?first=4
+    → https://hackerone.com/sitemap.xml?first=5
+    → https://hackerone.com/sitemap.xml?first=6
+    → https://hackerone.com/sitemap.xml?first=7
+
+──────────────────────────────────────────────────────────────────────
+  ④ REPEATER MANUAL CHECKLIST
+──────────────────────────────────────────────────────────────────────
+  [1] High | Unknown
+      URL: 
+      Test: 
+
+======================================================================

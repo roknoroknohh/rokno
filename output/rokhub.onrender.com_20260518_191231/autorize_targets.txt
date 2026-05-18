@@ -1,0 +1,9 @@
+# Autorize Target Endpoints
+# Generated: 2026-05-18T19:12:31.158423
+
+https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap
+https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap
+https://rokhub.onrender.com/games?category=1
+https://rokhub.onrender.com/games?category=2
+https://rokhub.onrender.com/games?category=3
+https://rokhub.onrender.com/games?category=4

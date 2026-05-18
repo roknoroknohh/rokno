@@ -1,0 +1,41 @@
+======================================================================
+  BURP SUITE WORKFLOW REPORT
+======================================================================
+  Target: https://rokhub.onrender.com/user
+  Generated: 2026-05-12T03:10:40.165629
+
+──────────────────────────────────────────────────────────────────────
+  ① LOGGER++ FILTER TARGETS
+──────────────────────────────────────────────────────────────────────
+  Add these to Logger++ Scope:
+    • /api/
+    • /graphql
+    • /auth/
+    • /user/
+    • /admin/
+    • /upload/
+    • /payment/
+
+  Status codes to watch: 401, 403, 500
+  Save responses containing: token, api_key, secret
+
+──────────────────────────────────────────────────────────────────────
+  ② AUTORIZE SETUP
+──────────────────────────────────────────────────────────────────────
+  1. Login with Account A (owner)
+  2. Copy Account A's cookies/token to Autorize
+  3. Login with Account B (attacker)
+  4. Browse the application normally
+  5. Watch for 'Bypassed!' in Autorize
+
+  High-value endpoints for Autorize:
+
+──────────────────────────────────────────────────────────────────────
+  ③ PARAM MINER TARGETS
+──────────────────────────────────────────────────────────────────────
+  Run Param Miner (Passive only) on:
+
+──────────────────────────────────────────────────────────────────────
+  ④ REPEATER MANUAL CHECKLIST
+──────────────────────────────────────────────────────────────────────
+======================================================================

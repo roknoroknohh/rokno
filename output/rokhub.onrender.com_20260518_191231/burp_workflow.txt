@@ -1,0 +1,69 @@
+======================================================================
+  BURP SUITE WORKFLOW REPORT
+======================================================================
+  Target: https://rokhub.onrender.com
+  Generated: 2026-05-18T19:12:31.150053
+
+──────────────────────────────────────────────────────────────────────
+  ① LOGGER++ FILTER TARGETS
+──────────────────────────────────────────────────────────────────────
+  Add these to Logger++ Scope:
+    • /api/
+    • /graphql
+    • /auth/
+    • /user/
+    • /admin/
+    • /upload/
+    • /payment/
+
+  Status codes to watch: 401, 403, 500
+  Save responses containing: token, api_key, secret
+
+──────────────────────────────────────────────────────────────────────
+  ② AUTORIZE SETUP
+──────────────────────────────────────────────────────────────────────
+  1. Login with Account A (owner)
+  2. Copy Account A's cookies/token to Autorize
+  3. Login with Account B (attacker)
+  4. Browse the application normally
+  5. Watch for 'Bypassed!' in Autorize
+
+  High-value endpoints for Autorize:
+    → https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap
+    → https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap
+    → https://rokhub.onrender.com/games?category=1
+    → https://rokhub.onrender.com/games?category=2
+    → https://rokhub.onrender.com/games?category=3
+    → https://rokhub.onrender.com/games?category=4
+
+──────────────────────────────────────────────────────────────────────
+  ③ PARAM MINER TARGETS
+──────────────────────────────────────────────────────────────────────
+  Run Param Miner (Passive only) on:
+    → https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap
+    → https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap
+    → https://rokhub.onrender.com/games?category=1
+    → https://rokhub.onrender.com/games?category=2
+    → https://rokhub.onrender.com/games?category=3
+    → https://rokhub.onrender.com/games?category=4
+
+──────────────────────────────────────────────────────────────────────
+  ④ REPEATER MANUAL CHECKLIST
+──────────────────────────────────────────────────────────────────────
+  [1] High | Unknown
+      URL: 
+      Test: 
+
+  [2] High | Unknown
+      URL: 
+      Test: 
+
+  [3] High | Unknown
+      URL: 
+      Test: 
+
+  [4] High | Unknown
+      URL: 
+      Test: 
+
+======================================================================

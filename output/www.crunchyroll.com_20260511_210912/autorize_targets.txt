@@ -1,0 +1,23 @@
+# Autorize Target Endpoints
+# Generated: 2026-05-11T21:09:12.311593
+
+https://www.crunchyroll.com/sitemaps/episode/%23.xml?page=0
+https://www.crunchyroll.com/sitemaps/episode/%23.xml?page=1
+https://www.crunchyroll.com/sitemaps/episode/%23.xml?page=2
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=0
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=1
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=2
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=3
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=4
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=5
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=6
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=7
+https://www.crunchyroll.com/sitemaps/episode/A.xml?page=8
+https://www.crunchyroll.com/sitemaps/episode/B.xml?page=0
+https://www.crunchyroll.com/sitemaps/episode/B.xml?page=1
+https://www.crunchyroll.com/sitemaps/episode/B.xml?page=2
+https://www.crunchyroll.com/sitemaps/episode/B.xml?page=3
+https://www.crunchyroll.com/sitemaps/episode/C.xml?page=0
+https://www.crunchyroll.com/sitemaps/episode/C.xml?page=1
+https://www.crunchyroll.com/sitemaps/episode/C.xml?page=2
+https://www.crunchyroll.com/sitemaps/episode/C.xml?page=3
